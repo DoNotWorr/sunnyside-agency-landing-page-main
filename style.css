@@ -1,0 +1,112 @@
+/* Default */
+
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Text */
+
+.white-background-card {
+    text-align: left;
+}
+
+
+/* Background images */
+
+.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.divider>div {
+    height: 60vh;
+}
+
+#cherry-background {
+    background-image: url("./images/desktop/image-graphic-design.jpg");
+}
+
+#orange-background {
+    background-image: url("./images/desktop/image-photography.jpg");
+}
+
+#egg {
+    background-image: url("./images/desktop/image-transform.jpg");
+}
+
+#cup {
+    background-image: url("./images/desktop/image-stand-out.jpg");
+}
+
+#bottle {
+    background-image: url("./images/desktop/image-gallery-milkbottles.jpg");
+}
+
+#plate {
+    background-image: url("./images/desktop/image-gallery-orange.jpg");
+}
+
+#cone {
+    background-image: url("./images/desktop/image-gallery-cone.jpg");
+}
+
+#sugar {
+    background-image: url("./images/desktop/image-gallery-sugarcubes.jpg");
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+
+/* Display grid*/
+
+.client-testimonials,
+.cards,
+.clients,
+.divider {
+    display: grid;
+}
+
+.cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.clients {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.divider {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* Other */
+
+.cards>div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.client-testimonials {
+    height: 100vh;
+}

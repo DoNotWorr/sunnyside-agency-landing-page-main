@@ -61,6 +61,7 @@ nav>a {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     word-spacing: 0.6rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -73,6 +74,9 @@ nav>a {
 .cards p {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
+}
+
+.white-bg-card p {
     color: hsl(232, 10%, 55%);
     line-height: 1.7rem;
     margin-bottom: 2.4rem;
@@ -116,25 +120,59 @@ a {
 }
 
 .learn-more {
-    text-decoration-thickness: 0.5rem;
-    text-underline-offset: -0.277rem;
-    text-decoration-line: underline;
+    text-decoration: none;
 }
 
 #yellow-underline {
-    text-decoration-color: hsla(51, 100%, 49%, 0.2);
+    box-shadow: 0 2.5em 0 1.1em #ffffff, 0 -1.6em 0 1.1em #FFFFFF, 0 -0.5em 0 0em #FFFFFF, inset 0 -0.5em 0 0em hsla(51, 100%, 49%, 0.30), 0.4em 0.0em 0 0em hsla(51, 100%, 49%, 0.30), -0.4em 0.0em 0 0em hsla(51, 100%, 49%, 0.30);
 }
 
 #yellow-underline:hover {
-    text-decoration-color: hsla(51, 100%, 49%, 0.8);
+    box-shadow: 0 2.5em 0 1.1em #ffffff, 0 -1.6em 0 1.1em #FFFFFF, 0 -0.5em 0 0em #FFFFFF, inset 0 -0.5em 0 0em hsla(51, 100%, 49%, 1), 0.4em 0.0em 0 0em hsla(51, 100%, 49%, 1), -0.4em 0.0em 0 0em hsla(51, 100%, 49%, 1);
 }
 
 #red-underline {
-    text-decoration-color: hsla(7, 99%, 70%, 0.2);
+    box-shadow: 0 2.5em 0 1.1em #ffffff, 0 -1.6em 0 1.1em #FFFFFF, 0 -0.5em 0 0em #FFFFFF, inset 0 -0.5em 0 0em hsla(7, 99%, 70%, 0.30), 0.4em 0.0em 0 0em hsla(7, 99%, 70%, 0.3), -0.4em 0.0em 0 0em hsla(7, 99%, 70%, 0.30);
 }
 
 #red-underline:hover {
-    text-decoration-color: hsla(7, 99%, 70%, 0.8);
+    box-shadow: 0 2.5em 0 1.1em #ffffff, 0 -1.6em 0 1.1em #FFFFFF, 0 -0.5em 0 0em #FFFFFF, inset 0 -0.5em 0 0em hsla(7, 99%, 70%, 1), 0.4em 0.0em 0 0em hsla(7, 99%, 70%, 1), -0.4em 0.0em 0 0em hsla(7, 99%, 70%, 1);
+}
+
+
+/* Cherry */
+
+.color-background-card h3 {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 1.75rem;
+}
+
+.container>p {
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.color-background-card>.container {
+    margin: 22rem 9.5rem 0 9.5rem;
+}
+
+#graphic-design h3 {
+    color: hsl(167, 40%, 24%);
+}
+
+#photography h3 {
+    color: hsl(198, 62%, 26%);
+}
+
+#graphic-design p {
+    color: rgb(56, 116, 104);
+}
+
+#photography p {
+    color: rgb(13, 87, 124);
 }
 
 
@@ -146,12 +184,12 @@ header {
     width: 100%;
 }
 
-#cherry-background {
-    background-image: url("./images/desktop/image-graphic-design.jpg");
+#photography {
+    background-image: url("./images/desktop/image-photography.jpg");
 }
 
-#orange-background {
-    background-image: url("./images/desktop/image-photography.jpg");
+#graphic-design {
+    background-image: url("./images/desktop/image-graphic-design.jpg");
 }
 
 #egg {
@@ -188,7 +226,6 @@ footer {
 
 /* Display grid*/
 
-.client-testimonials,
 .cards,
 .clients,
 .divider {
@@ -211,5 +248,43 @@ footer {
 /* Other */
 
 .client-testimonials {
-    height: 100vh;
+    height: 60vh;
+    margin: 20vh 0 17vh 0;
+}
+
+.client-testimonials h4 {
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    color: rgb(175, 175, 175);
+    padding-bottom: 4.5rem;
+}
+
+.clients p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: hsl(232, 10%, 55%);
+    line-height: 1.7rem;
+    margin-bottom: 4rem;
+    padding: 0 3.3rem;
+}
+
+.clients img {
+    border-radius: 50%;
+    height: 4rem;
+    margin-bottom: 3rem;
+}
+
+.clients h5 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    margin-bottom: 1.0rem;
+    color: hsl(212, 27%, 19%);
+}
+
+.clients h6 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: hsl(210, 4%, 67%);
 }
